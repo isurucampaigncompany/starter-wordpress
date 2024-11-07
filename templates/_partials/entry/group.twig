@@ -1,0 +1,5 @@
+<aside class="group-block my-8">
+  <div class="rounded bg-slate-100 p-8" {% if entry.textColor.color or entry.backgroundColor.color %}style="{% if entry.textColor.color %}color: {{ entry.textColor.color }};"{% endif %} {% if entry.backgroundColor.color %}style="background-color: {{ entry.backgroundColor.color }};{% endif %}>"{% endif %}>
+    {{ entry.postontent }}
+  </div>
+</aside>

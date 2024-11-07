@@ -1,6 +1,6 @@
 {% extends "pages/default" %}
 {% import '_utilities/teaser' as post %}
-{% set postQuery = craft.entries.section('posts').limit(10) %}
+{% set postQuery = craft.entries.section('posts').limit(20) %}
 {% paginate postQuery as pageInfo, posts %}
 
 {% block title %}

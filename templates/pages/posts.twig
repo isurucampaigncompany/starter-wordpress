@@ -1,14 +1,27 @@
-{% extends "pages/default" %}
+{% extends "_layouts/default" %}
 {% import '_utilities/teaser' as post %}
 
-{% block landing %}
-  <section class="bg-slate-100">
-    <div class="container mx-auto divide-y divide-slate-300 py-12 px-2">
-      <h2 class="font-bold text-4xl mb-2">Other articles</h2>
-      {% set posts = craft.entries.section('posts').id('not ' ~ entry.id).limit(3).all() %}
-      {% for post in posts %}
-        {{ post.teaser(post) }}
-      {% endfor %}    
+{% block content %}
+  {% include '_partials/cover' %}
+  <section class="page__content">
+    <div class="container mx-auto py-12 px-2 text-balance">
+      {{ entry.postContent }}
     </div>
+    {% if entry.commentOptions %}
+      <div class="container mx-auto py-12 px-2 text-balance">
+        <h2 class="font-bold text-4xl mb-2">Comments</h2>
+        {{ craft.comments.render(entry.id) }}
+      </div>
+    {% endif %}
+    <div class="bg-slate-100">
+      <section class="bg-slate-100">
+        <div class="container mx-auto divide-y divide-slate-300 py-12 px-2">
+          <h2 class="font-bold text-4xl mb-2">Other articles</h2>
+          {% set posts = craft.entries.section('posts').id('not ' ~ entry.id).limit(3).all() %}
+          {% for post in posts %}
+            {{ post.teaser(post) }}
+          {% endfor %}    
+        </div>
+      </section>
   </section>
 {% endblock %}

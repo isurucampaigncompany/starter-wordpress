@@ -1,4 +1,4 @@
-dateModified: 1730954238
+dateModified: 1730959946
 email:
   fromEmail: travis@pixelandtonic.com
   fromName: 'Screw The Cubicle'
@@ -24,6 +24,7 @@ meta:
     7b8744f4-248a-425a-9bc1-f4e67cf2e7c4: Relationship # Relationship
     7e2aabf9-48f2-4671-b232-546499a18d43: Template # Template
     7e840cd6-eb2d-44b1-a20a-ca7ba60b1fc2: Interview # Interview
+    08a529f2-1255-4bc6-9680-ec89d97b23fa: 'Public Schema' # Public Schema
     8ae18221-b04f-4809-af4b-b3db3b8a642f: URL # URL
     8c29be24-9d81-4099-a332-8c9bb867917f: 'Date Time' # Date Time
     8d9f369e-819f-4290-9e67-d9503ad717e7: URL # URL

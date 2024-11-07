@@ -1,3 +1,34 @@
-  <header class="container mx-auto pt-12 pb-6 px-2 text-2xl">
-    <h1 class="font-bold text-4xl sm:text-6xl lg:text-9xl">{{ entry.title }}</h1>
-  </header>
+{% import '_utilities/image' as img %}
+
+<header class="container mx-auto pt-12 pb-6 px-2 text-2xl"{% if entry.coverOverlayColor %} style="background-color: {{ entry.coverOverlayColor.color }};"{% endif %}>
+  {% if entry.coverPhoto %}
+    <figure class="image-block my-12">
+      {% set assets = entry.coverPhoto.eagerly().all() %}
+      {{ img.pictures(assets) }}
+    </figure>
+  {% endif %}
+  {% set title = entry.coverText ? entry.coverText : entry.title %}
+  <h1 class="font-bold text-4xl sm:text-6xl lg:text-9xl">{{ title }}</h1>
+  {% if entry.section.handle == 'posts' %}
+    {% set category = entry.categories.eagerly().one() %}
+    {% set genres = entry.genres.eagerly().all() %}
+    {% set tags = entry.tags.eagerly().all() %}
+    <p class="text-sm">{{ entry.postDate|date('F j, Y') }}</p>
+    <p class="text-sm">{{ category.title }}</p>
+    <ul>
+      {% for genre in genres %}
+        <li class="text-sm">{{ genre.title }}</li>
+      {% endfor %}
+    </ul>
+    <ul>
+      {% for tag in tags %}
+        <li class="text-sm">{{ tag.title }}</li>
+      {% endfor %}
+    </ul>
+    <p class="text-sm">{{ entry.excerpt }}</p>
+  {% endif %}
+  {% if entry.section.handle == 'interviews' %}
+    <p class="text-2xl sm:text-4xl mt-4 font-bold"><a href="{{ entry.url_acf }}" class="text-red-600 hover:undeline focus:underline cursor-pointer">{{ entry.publication }}</a></p>
+    <p class="text-sm">{{ entry.date|date('F j, Y') }}</p>
+  {% endif %}
+</header>
