@@ -1,4 +1,4 @@
-dateModified: 1730952562
+dateModified: 1730954238
 email:
   fromEmail: travis@pixelandtonic.com
   fromName: 'Screw The Cubicle'
@@ -14,7 +14,7 @@ fs:
 meta:
   __names__:
     0ec3b4b8-86ce-4f91-8887-ba02fd2e0767: File # File
-    0ff5ed7e-a51c-4d65-82bc-8a9b37bea3c8: 'Screw The Cubicle' # Screw The Cubicle
+    0ff5ed7e-a51c-4d65-82bc-8a9b37bea3c8: 'Wordpress Starter' # Wordpress Starter
     3af1f008-1471-42e9-bb3e-cd8cc081a76f: 'Timeline Type' # Timeline Type
     3d08fc1e-5bb3-4af7-9ad9-7dc9494ddcbd: Color # Color
     5a524179-b073-4ec2-a219-674143dbc455: Tags # Tags
@@ -35,15 +35,18 @@ meta:
     36ca6464-18ad-4f2a-9ae0-e8da4e00c94a: Group # Group
     39a52cc1-2152-4f07-8a95-2768570e084d: Date # Date
     45f051f7-103c-4dc0-9c5e-4069df0b680a: User # User
+    50decd63-d357-47fd-a403-8f8e768c41b1: Global # Global
     53fa3ad6-f2b0-4abd-bc52-ec0f6e6ce9fb: Radios # Radios
     68d4b67e-54f4-47c9-97cb-ff232d3d1e24: Image # Image
     71dcbb5f-5f3a-4310-93d5-0fe27d7b73cf: Genres # Genres
     354a145a-dc30-40c6-abe4-35c0fb93abeb: Details # Details
     677c2b2b-14a7-4692-8bb8-b4dc667e1a12: Tags # Tags
     732bcbe8-6386-488e-9c0d-15cccfb3d49c: Full # Full
+    823d0683-c67f-4f2b-a9be-ac477badef58: Global # Global
     858d8f32-1b71-4690-9b65-1419de99af54: Location # Location
     890a460f-51ce-4043-bc73-73101df78c50: Number # Number
     934bb3e9-337e-406b-9a21-328cab1cbbb2: Date # Date
+    3944dd4b-41c9-40e5-abee-b4a365a25540: Address # Address
     4204e7a2-12a5-44bf-86a6-5218e5b0105e: 'Timeline Date' # Timeline Date
     7023c1e6-1c14-4b33-89bf-e29c5ccaed21: Icon # Icon
     7261a233-a194-4374-8a55-91770cef7528: 'Post Content' # Post Content
@@ -53,7 +56,7 @@ meta:
     95960eea-4a79-4e72-960f-516e4e24f7a4: 'Action Item' # Action Item
     0860788f-c61f-488d-b0e6-3de270710945: Posts # Posts
     7376411d-2303-4b5f-b4f3-3e6be9b8ae30: Conference # Conference
-    37938585-7d7b-4d97-94f7-73dc07d795c2: 'Screw The Cubicle' # Screw The Cubicle
+    37938585-7d7b-4d97-94f7-73dc07d795c2: 'Wordpress Starter' # Wordpress Starter
     78897448-d29a-4532-bec9-d80681a5d8a5: Simple # Simple
     79559275-ab81-4420-abf1-1c848a0a68d6: Sticky # Sticky
     a195f3b4-e780-4e36-9cd3-49a4875e7767: 'Action Items' # Action Items

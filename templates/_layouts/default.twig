@@ -1,0 +1,33 @@
+{% set global = craft.entries.section('global').one() %}
+
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="MobileOptimized" content="320" />
+  <meta name="viewport" content="initial-scale=1.0, user-scalable=yes">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <link rel="icon" href="/favicon.ico" sizes="any" />
+  <link rel="icon" href="/icon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <link rel="manifest" href="/manifest.webmanifest" />
+  <meta charset="utf-8" />
+  <title>{{ entry.title }}{% block title %}{% endblock %} | {{ siteName }}</title>
+  <meta name="referrer" content="origin-when-cross-origin" />
+
+  {# Include Tailwind Play CDN for basic styling #}
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="light-mode">
+  <a href="#main" class="transition left-0 absolute p-3 m-3 -translate-y-16 focus:translate-y-0 bg-slate-50">Skip to main content</a>
+  
+  {% include "_partials/header" %}
+
+  <main class="page {{ entry.slug }}" id="main" tabindex="-1">
+    {% block content %}{% endblock %}
+  </main>
+
+  {% include "_partials/footer" %}
+
+</body>
+</html>

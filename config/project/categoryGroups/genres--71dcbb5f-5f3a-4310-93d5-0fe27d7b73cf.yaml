@@ -101,7 +101,7 @@ fieldLayouts:
 handle: genres
 name: Genres
 siteSettings:
-  37938585-7d7b-4d97-94f7-73dc07d795c2: # Screw The Cubicle
+  37938585-7d7b-4d97-94f7-73dc07d795c2: # Wordpress Starter
     hasUrls: false
     template: null
     uriFormat: null

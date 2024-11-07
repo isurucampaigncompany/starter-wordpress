@@ -1,0 +1,15 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  - 823d0683-c67f-4f2b-a9be-ac477badef58 # Global
+handle: global
+maxAuthors: 1
+name: Global
+propagationMethod: all
+siteSettings:
+  37938585-7d7b-4d97-94f7-73dc07d795c2: # Wordpress Starter
+    enabledByDefault: true
+    hasUrls: true
+    template: global/_entry.twig
+    uriFormat: global
+type: single

@@ -14,9 +14,12 @@ previewTargets:
       -
         - urlFormat
         - '{url}'
+      -
+        - refresh
+        - '1'
 propagationMethod: all
 siteSettings:
-  37938585-7d7b-4d97-94f7-73dc07d795c2: # Screw The Cubicle
+  37938585-7d7b-4d97-94f7-73dc07d795c2: # Wordpress Starter
     enabledByDefault: true
     hasUrls: true
     template: _post.twig
