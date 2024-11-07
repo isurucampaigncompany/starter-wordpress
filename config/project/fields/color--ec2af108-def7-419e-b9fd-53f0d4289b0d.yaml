@@ -1,0 +1,23 @@
+columnSuffix: null
+handle: color
+instructions: null
+name: Color
+searchable: false
+settings:
+  defaultColor: null
+  presets:
+    - '#000000'
+    - '#abb8c3'
+    - '#ffffff'
+    - '#f78da7'
+    - '#cf2e2e'
+    - '#ff6900'
+    - '#fcb900'
+    - '#7bdcb5'
+    - '#00d084'
+    - '#8ed1fc'
+    - '#0693e3'
+    - '#9b51e0'
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Color

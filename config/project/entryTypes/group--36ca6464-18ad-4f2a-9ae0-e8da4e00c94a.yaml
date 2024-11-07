@@ -1,0 +1,69 @@
+color: indigo
+fieldLayouts:
+  21d8bb6e-2116-420e-9c6b-daf94be9d580:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2024-11-06T17:11:11-08:00'
+            elementCondition: null
+            fieldUid: ec2af108-def7-419e-b9fd-53f0d4289b0d # Color
+            handle: backgroundColor
+            includeInCards: true
+            instructions: null
+            label: 'Background Color'
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 5283822d-b4ed-43cb-b590-1751759c0182
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-11-06T17:11:11-08:00'
+            elementCondition: null
+            fieldUid: ec2af108-def7-419e-b9fd-53f0d4289b0d # Color
+            handle: textColor
+            includeInCards: true
+            instructions: null
+            label: 'Text Color'
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a86650f4-f4ca-4214-aa84-180bb5c899e0
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-11-06T17:11:11-08:00'
+            elementCondition: null
+            fieldUid: e314b2cd-4ad3-4d8c-94d8-347ddb16245d # Post Content
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 391a397e-56d1-4ce8-bc0b-e943e88a638f
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: b3f924d4-5ed3-4eab-b11d-60b0fdb6ef1b
+        userCondition: null
+handle: group
+hasTitleField: false
+icon: layer-group
+name: Group
+showSlugField: false
+showStatusField: false
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

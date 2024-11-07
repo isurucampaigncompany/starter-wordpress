@@ -1,0 +1,10 @@
+columnSuffix: null
+handle: acf_email_11643
+instructions: ''
+name: Email
+searchable: false
+settings:
+  placeholder: ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Email

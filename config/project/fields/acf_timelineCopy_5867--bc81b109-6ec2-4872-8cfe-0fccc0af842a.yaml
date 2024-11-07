@@ -1,0 +1,21 @@
+columnSuffix: null
+handle: acf_timelineCopy_5867
+instructions: ''
+name: 'Timeline Copy'
+searchable: false
+settings:
+  availableTransforms: '*'
+  availableVolumes: '*'
+  ckeConfig: 732bcbe8-6386-488e-9c0d-15cccfb3d49c # Full
+  createButtonLabel: null
+  defaultTransform: null
+  enableSourceEditingForNonAdmins: false
+  purifierConfig: null
+  purifyHtml: true
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  showWordCount: false
+  wordLimit: null
+translationKeyFormat: null
+translationMethod: none
+type: craft\ckeditor\Field

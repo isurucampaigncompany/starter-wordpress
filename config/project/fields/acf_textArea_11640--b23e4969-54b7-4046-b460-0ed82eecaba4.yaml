@@ -1,0 +1,16 @@
+columnSuffix: null
+handle: acf_textArea_11640
+instructions: ''
+name: 'Text Area'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  initialRows: 4
+  multiline: true
+  placeholder: ''
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

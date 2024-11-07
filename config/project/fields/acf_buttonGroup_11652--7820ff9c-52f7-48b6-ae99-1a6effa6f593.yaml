@@ -1,0 +1,44 @@
+columnSuffix: null
+handle: acf_buttonGroup_11652
+instructions: ''
+name: 'Button Group'
+searchable: false
+settings:
+  customOptions: false
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - Red
+        -
+          - value
+          - red
+        -
+          - default
+          - false
+    -
+      __assoc__:
+        -
+          - label
+          - Green
+        -
+          - value
+          - green
+        -
+          - default
+          - false
+    -
+      __assoc__:
+        -
+          - label
+          - Blue
+        -
+          - value
+          - blue
+        -
+          - default
+          - true
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Dropdown

@@ -1,0 +1,16 @@
+columnSuffix: null
+handle: acf_location_4818
+instructions: ''
+name: Location
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  initialRows: 4
+  multiline: false
+  placeholder: ''
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

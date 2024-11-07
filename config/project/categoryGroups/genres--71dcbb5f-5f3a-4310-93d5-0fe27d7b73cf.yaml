@@ -1,0 +1,110 @@
+defaultPlacement: end
+fieldLayouts:
+  76046e1f-cd0b-4b9e-8f76-ee2ee76546c1:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: '2024-11-06T17:09:01-08:00'
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\TitleField
+            uid: 3174bbc4-2825-4a0e-a1e9-e357794e9016
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-11-06T17:09:01-08:00'
+            elementCondition: null
+            fieldUid: b636e420-0741-4bd3-b8b2-89a8d50806f9
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c552cf82-e101-4e2d-9e4d-9a9859d05801
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 070e982a-5fdb-4ca0-a331-feaa92ca9c3e
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2024-11-06T17:09:01-08:00'
+            elementCondition: null
+            fieldUid: 9cba6960-76fe-4a90-af57-1169673e738c # Genre Link
+            handle: genreLink
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 05e10130-b704-4d97-9877-902a3f0c4712
+            userCondition: null
+            warning: null
+            width: 100
+        name: 'Genre fields'
+        uid: 15ea6b9f-abfe-4d86-94a5-7aac9b63e087
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2024-11-06T17:09:01-08:00'
+            elementCondition: null
+            fieldUid: 4d06012a-2d8a-4e92-bf6b-de74bdd1be0b
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 8736cd9c-24c8-4f07-9f6b-da536b66232b
+            userCondition: null
+            warning: null
+            width: 100
+        name: WordPress
+        uid: 738eab31-74e7-456a-b0b0-d27f4920fd34
+        userCondition: null
+handle: genres
+name: Genres
+siteSettings:
+  37938585-7d7b-4d97-94f7-73dc07d795c2: # Screw The Cubicle
+    hasUrls: false
+    template: null
+    uriFormat: null
+structure:
+  maxLevels: null
+  uid: bcaf1878-2599-419f-a7c2-075ff7fdf6fb

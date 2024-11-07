@@ -2,11 +2,16 @@
   "minimum-stability": "dev",
   "prefer-stable": true,
   "require": {
-    "craftcms/cms": "^5.0.0",
+    "craftcms/ckeditor": "4.3.1",
+    "craftcms/cms": "5.5.x-dev as 5.5.0-alpha",
+    "doublesecretagency/craft-googlemaps": "5.0.2",
+    "ether/simplemap": "5.0.3",
+    "verbb/comments": "3.0.3",
     "vlucas/phpdotenv": "^5.4.0"
   },
   "require-dev": {
     "craftcms/generator": "^2.0.0",
+    "craftcms/wp-import": "dev-main",
     "yiisoft/yii2-shell": "^2.0.3"
   },
   "config": {
@@ -24,5 +29,16 @@
     "post-root-package-install": [
       "@php -r \"file_exists('.env') || copy('.env.example.dev', '.env');\""
     ]
+  },
+  "repositories": {
+    "wp-import": {
+      "type": "vcs",
+      "url": "https://github.com/craftcms/wp-import"
+    },
+    "0": {
+      "type": "composer",
+      "url": "https://composer.craftcms.com",
+      "canonical": false
+    }
   }
 }

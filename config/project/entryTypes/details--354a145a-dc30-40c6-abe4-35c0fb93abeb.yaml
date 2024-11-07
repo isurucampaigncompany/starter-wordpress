@@ -1,0 +1,53 @@
+color: fuchsia
+fieldLayouts:
+  1babc7e3-bb85-48b3-8b13-b8e36fc15073:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2024-11-06T17:12:32-08:00'
+            elementCondition: null
+            fieldUid: dee725db-134a-40f3-bd54-199353365c57 # Summary
+            handle: null
+            includeInCards: true
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: f3e982fe-5655-43b3-baff-0a8260a59ef6
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-11-06T17:12:32-08:00'
+            elementCondition: null
+            fieldUid: e314b2cd-4ad3-4d8c-94d8-347ddb16245d # Post Content
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 962ff080-af81-45b5-a7c5-b1034b02f3b5
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: ea97db36-3a9b-4bdf-b70d-1b2370522edd
+        userCondition: null
+handle: details
+hasTitleField: false
+icon: chevron-down
+name: Details
+showSlugField: false
+showStatusField: false
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

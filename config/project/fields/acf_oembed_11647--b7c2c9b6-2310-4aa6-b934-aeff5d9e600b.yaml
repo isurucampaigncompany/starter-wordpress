@@ -1,0 +1,14 @@
+columnSuffix: null
+handle: acf_oembed_11647
+instructions: ''
+name: oEmbed
+searchable: false
+settings:
+  maxLength: 255
+  showLabelField: false
+  showTargetField: false
+  types:
+    - url
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Link

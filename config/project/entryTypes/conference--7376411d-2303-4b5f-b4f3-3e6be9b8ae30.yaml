@@ -1,0 +1,235 @@
+color: blue
+fieldLayouts:
+  cb1ddc74-0e88-40af-9e41-e03ccc263963:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: '2024-11-06T17:34:33-08:00'
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            required: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: ddd5d671-3b40-4db8-aca9-dbfd0f5814ab
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-11-06T17:34:33-08:00'
+            elementCondition: null
+            fieldUid: e314b2cd-4ad3-4d8c-94d8-347ddb16245d # Post Content
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 8f773955-8c91-46ac-953f-e4947aa676af
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: b3243050-6953-45b1-9460-c792d01c8360
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2024-11-06T17:34:33-08:00'
+            elementCondition: null
+            fieldUid: b636e420-0741-4bd3-b8b2-89a8d50806f9
+            handle: coverText
+            includeInCards: false
+            instructions: null
+            label: 'Cover Text'
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e3d5132d-af92-4475-9a4c-ce25e2832203
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-11-06T17:34:33-08:00'
+            elementCondition: null
+            fieldUid: a553e2eb-f7c3-4f3e-a07e-27f4c94cec86 # Media
+            handle: coverPhoto
+            includeInCards: false
+            instructions: null
+            label: 'Cover Photo'
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: ff8f55d9-f7b3-4c2d-928d-cfb08a8ac57d
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-11-06T17:34:33-08:00'
+            elementCondition: null
+            fieldUid: ec2af108-def7-419e-b9fd-53f0d4289b0d # Color
+            handle: coverOverlayColor
+            includeInCards: false
+            instructions: null
+            label: 'Cover Overlay Color'
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 8a8e8390-7b69-481e-a98a-5c458ef15add
+            userCondition: null
+            warning: null
+            width: 100
+        name: 'Cover Photo'
+        uid: 209b007b-f747-4da8-b450-6258b746c5bb
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2024-11-06T17:34:33-08:00'
+            elementCondition: null
+            fieldUid: 858d8f32-1b71-4690-9b65-1419de99af54 # Location
+            handle: location
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 57fb9367-258e-43ad-b444-0f0ec1f81fd0
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-11-06T17:34:33-08:00'
+            elementCondition: null
+            fieldUid: 8ae18221-b04f-4809-af4b-b3db3b8a642f # URL
+            handle: url_acf
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c9b7fbe6-c089-4516-8a0d-5c728ccf94bb
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-11-06T17:34:33-08:00'
+            elementCondition: null
+            fieldUid: 934bb3e9-337e-406b-9a21-328cab1cbbb2 # Date
+            handle: date
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 04868971-99ea-49c6-8a36-6bd820cf7e9a
+            userCondition: null
+            warning: null
+            width: 100
+        name: 'For Conferences'
+        uid: 10c26d38-ad97-42fa-b1dc-9fbd5c6f80a9
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2024-11-06T17:34:33-08:00'
+            elementCondition: null
+            fieldUid: 79559275-ab81-4420-abf1-1c848a0a68d6 # Sticky
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 0c8de67a-42b8-44f1-81e3-750d50258db8
+            userCondition: null
+            warning: null
+            width: 100
+        name: Meta
+        uid: 680694ef-cada-4fab-9aa6-6fff0f5f5ee0
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2024-11-06T17:34:33-08:00'
+            elementCondition: null
+            fieldUid: 4d06012a-2d8a-4e92-bf6b-de74bdd1be0b
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 6ccde75f-9c9f-440d-8df8-09ffa9cb0f9a
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-11-06T17:34:33-08:00'
+            elementCondition: null
+            fieldUid: 7e2aabf9-48f2-4671-b232-546499a18d43 # Template
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 8cb4c0ec-2929-4f3f-9afc-dd568ee29ddb
+            userCondition: null
+            warning: null
+            width: 100
+        name: WordPress
+        uid: 120c949b-e9c2-410d-9139-c63e794463cb
+        userCondition: null
+handle: conference
+hasTitleField: true
+icon: pen-nib
+name: Conference
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

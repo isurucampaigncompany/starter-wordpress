@@ -1,0 +1,24 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  - 18a5282e-f33b-42c7-b6c8-173d5400d3ff # Post
+handle: posts
+maxAuthors: 1
+name: Posts
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+propagationMethod: all
+siteSettings:
+  37938585-7d7b-4d97-94f7-73dc07d795c2: # Screw The Cubicle
+    enabledByDefault: true
+    hasUrls: true
+    template: _post.twig
+    uriFormat: '{postDate|date(''Y'')}/{postDate|date(''m'')}/{slug}'
+type: channel

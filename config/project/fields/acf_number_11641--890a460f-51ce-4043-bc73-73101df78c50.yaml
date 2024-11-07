@@ -1,0 +1,19 @@
+columnSuffix: null
+handle: acf_number_11641
+instructions: ''
+name: Number
+searchable: false
+settings:
+  decimals: 0
+  defaultValue: null
+  max: 100
+  min: 5
+  prefix: 'prepend text'
+  previewCurrency: null
+  previewFormat: decimal
+  size: null
+  step: 10
+  suffix: 'append text'
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Number

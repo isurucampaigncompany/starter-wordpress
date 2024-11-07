@@ -1,0 +1,44 @@
+columnSuffix: null
+handle: acf_radios_11651
+instructions: ''
+name: Radios
+searchable: false
+settings:
+  customOptions: true
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - Red
+        -
+          - value
+          - red
+        -
+          - default
+          - false
+    -
+      __assoc__:
+        -
+          - label
+          - Green
+        -
+          - value
+          - green
+        -
+          - default
+          - false
+    -
+      __assoc__:
+        -
+          - label
+          - Blue
+        -
+          - value
+          - blue
+        -
+          - default
+          - false
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\RadioButtons

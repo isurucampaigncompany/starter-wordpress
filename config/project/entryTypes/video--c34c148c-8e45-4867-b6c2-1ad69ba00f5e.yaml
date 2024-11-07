@@ -1,0 +1,37 @@
+color: red
+fieldLayouts:
+  830494f6-ec50-47f6-8fff-2ce6d648e12a:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2024-11-06T17:09:08-08:00'
+            elementCondition: null
+            fieldUid: 22e94a09-0f7c-4a1f-9981-7fc0605d83fa # Link URL
+            handle: videoUrl
+            includeInCards: true
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9a0ce9bd-d6fd-4210-a152-cd99e5a93ff9
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 742df226-0ea7-4a13-b4c4-21849d284009
+        userCondition: null
+handle: video
+hasTitleField: false
+icon: youtube
+name: Video
+showSlugField: false
+showStatusField: false
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
