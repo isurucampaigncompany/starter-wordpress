@@ -12,7 +12,7 @@
   <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
   <link rel="manifest" href="/manifest.webmanifest" />
   <meta charset="utf-8" />
-  <title>{{ entry.title }}{% block title %}{% endblock %} | {{ siteName }}</title>
+  <title>{% if entry is defined %}{{ entry.title }}{% endif %}{% block title %}{% endblock %} | {{ siteName }}</title>
   <meta name="referrer" content="origin-when-cross-origin" />
 
   {# Include Tailwind Play CDN for basic styling #}
@@ -23,7 +23,7 @@
   
   {% include "_partials/header" %}
 
-  <main class="page {{ entry.slug }}" id="main" tabindex="-1">
+  <main class="page {% if entry is defined %}{{ entry.slug }}{% endif %}" id="main" tabindex="-1">
     {% block content %}{% endblock %}
   </main>
 
