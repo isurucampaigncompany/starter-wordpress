@@ -10,11 +10,10 @@
 {% endblock %}
 
 {% block landing %}
-  <section class="container mx-auto mb-6 px-2 divide-y divide-slate-300 prose">
+  <section class="container mx-auto mb-6 px-2 divide-y divide-slate-300">
     {% for post in posts %}
       {{ post.teaser(post) }}
     {% endfor %}
-
     {% include '_partials/pagination' with { pageInfo: pageInfo } %}
   </section>
 {% endblock %}
