@@ -1,34 +1,24 @@
-{% import '_utilities/image' as img %}
+{% set category = entry.categories.eagerly().one() ?? null %}
+{% set tags = entry.tags.eagerly().all() ?? null %}
 
-<header class="container mx-auto pt-12 pb-6 px-2 text-2xl"{% if entry.coverOverlayColor %} style="background-color: {{ entry.coverOverlayColor.color }};"{% endif %}>
-  {% if entry.coverPhoto %}
-    <figure class="image-block my-12">
-      {% set assets = entry.coverPhoto.eagerly().all() %}
-      {{ img.pictures(assets) }}
-    </figure>
-  {% endif %}
-  {% set title = entry.coverText ? entry.coverText : entry.title %}
-  <h1 class="font-bold text-4xl sm:text-6xl lg:text-9xl">{{ title }}</h1>
-  {% if entry.section.handle == 'posts' %}
-    {% set category = entry.categories.eagerly().one() %}
-    {% set genres = entry.genres.eagerly().all() %}
-    {% set tags = entry.tags.eagerly().all() %}
-    <p class="text-sm">{{ entry.postDate|date('F j, Y') }}</p>
-    <p class="text-sm">{{ category.title }}</p>
-    <ul>
-      {% for genre in genres %}
-        <li class="text-sm">{{ genre.title }}</li>
-      {% endfor %}
-    </ul>
-    <ul>
-      {% for tag in tags %}
-        <li class="text-sm">{{ tag.title }}</li>
-      {% endfor %}
-    </ul>
-    <p class="text-sm">{{ entry.excerpt }}</p>
-  {% endif %}
-  {% if entry.section.handle == 'interviews' %}
-    <p class="text-2xl sm:text-4xl mt-4 font-bold"><a href="{{ entry.url_acf }}" class="text-red-600 hover:undeline focus:underline cursor-pointer">{{ entry.publication }}</a></p>
-    <p class="text-sm">{{ entry.date|date('F j, Y') }}</p>
-  {% endif %}
+<header class="container mx-auto pt-12 pb-6 px-2 text-2xl">
+  <h1 class="font-bold text-4xl sm:text-6xl lg:text-9xl">{{ entry.title }}</h1>
+  <div class="text-xs mt-4 flex gap-2">
+    {% if category %}
+      <div class="grow">
+        <p><a href="{{ category.url }}" class="font-bold text-red-600 hover:text-red-800 hover:underline">{{ category.title }}</a> | <time datetime="{{ entry.postDate|atom }}">{{ entry.postDate|date }}</time></p>
+        {% if entry.author.fullName %}<p>By {{ entry.author.fullName }}</p>{% endif %}
+      </div>
+    {% endif %}
+    {% if tags %}
+      <aside class="">
+        <h3 class="font-bold">Tagged</h3>
+        <ul>
+        {% for tag in tags %}
+          <li class="inline-block">{{ tag.title }}{% if not loop.last %},{% endif %}</li>
+        {% endfor %}
+        </ul>
+      </aside>
+    {% endif %}
+  </div>
 </header>

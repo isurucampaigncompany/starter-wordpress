@@ -10,7 +10,7 @@ fieldLayouts:
             autocomplete: false
             autocorrect: true
             class: null
-            dateAdded: '2024-11-06T17:09:01-08:00'
+            dateAdded: '2024-11-07T01:09:01+00:00'
             disabled: false
             elementCondition: null
             id: null
@@ -36,7 +36,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            dateAdded: '2024-11-06T17:09:01-08:00'
+            dateAdded: '2024-11-07T01:09:01+00:00'
             elementCondition: null
             fieldUid: b636e420-0741-4bd3-b8b2-89a8d50806f9
             handle: null
@@ -58,7 +58,7 @@ fieldLayouts:
         elementCondition: null
         elements:
           -
-            dateAdded: '2024-11-06T17:09:01-08:00'
+            dateAdded: '2024-11-07T01:09:01+00:00'
             elementCondition: null
             fieldUid: 4d06012a-2d8a-4e92-bf6b-de74bdd1be0b
             handle: null
@@ -80,9 +80,9 @@ handle: categories
 name: Categories
 siteSettings:
   37938585-7d7b-4d97-94f7-73dc07d795c2: # Wordpress Starter
-    hasUrls: false
-    template: null
-    uriFormat: null
+    hasUrls: true
+    template: pages/category.twig
+    uriFormat: 'category/{slug}'
 structure:
   maxLevels: null
   uid: 04824fff-3cab-4760-9023-a9700dafba0b
