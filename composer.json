@@ -4,8 +4,6 @@
   "require": {
     "craftcms/ckeditor": "4.3.1",
     "craftcms/cms": "5.5.x-dev as 5.5.0-alpha",
-    "doublesecretagency/craft-googlemaps": "5.0.2",
-    "ether/simplemap": "5.0.3",
     "verbb/comments": "3.0.3",
     "vlucas/phpdotenv": "^5.4.0"
   },

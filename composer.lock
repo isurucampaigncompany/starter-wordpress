@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "cabede2a5b4dd0b5c0e98c6871112142",
+    "content-hash": "0f4c37ffeb7e0dce44cb30cc5e3513c0",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -180,51 +180,6 @@
             "time": "2024-07-12T11:53:22+00:00"
         },
         {
-            "name": "composer/ca-bundle",
-            "version": "1.5.3",
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/composer/ca-bundle/zipball/3b1fc3f0be055baa7c6258b1467849c3e8204eb2",
-                "reference": "3b1fc3f0be055baa7c6258b1467849c3e8204eb2",
-                "shasum": ""
-            },
-            "require": {
-                "ext-openssl": "*",
-                "ext-pcre": "*",
-                "php": "^7.2 || ^8.0"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-main": "1.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Composer\\CaBundle\\": "src"
-                }
-            },
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Jordi Boggiano",
-                    "email": "j.boggiano@seld.be",
-                    "homepage": "http://seld.be"
-                }
-            ],
-            "description": "Lets you find a path to the system CA bundle, and includes a fallback to the Mozilla CA bundle.",
-            "keywords": [
-                "cabundle",
-                "cacert",
-                "certificate",
-                "ssl",
-                "tls"
-            ],
-            "time": "2024-11-04T10:15:26+00:00"
-        },
-        {
             "name": "composer/semver",
             "version": "3.4.3",
             "dist": {
@@ -334,12 +289,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/craftcms/cms.git",
-                "reference": "56ee148b2dbd92847b47a8655099a544c71cf0f2"
+                "reference": "1279d75569624af9488887f9ea187746e11776c8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/craftcms/cms/zipball/56ee148b2dbd92847b47a8655099a544c71cf0f2",
-                "reference": "56ee148b2dbd92847b47a8655099a544c71cf0f2",
+                "url": "https://api.github.com/repos/craftcms/cms/zipball/1279d75569624af9488887f9ea187746e11776c8",
+                "reference": "1279d75569624af9488887f9ea187746e11776c8",
                 "shasum": ""
             },
             "require": {
@@ -452,7 +407,7 @@
                 "rss": "https://github.com/craftcms/cms/releases.atom",
                 "source": "https://github.com/craftcms/cms"
             },
-            "time": "2024-11-07T01:48:40+00:00"
+            "time": "2024-11-11T05:44:44+00:00"
         },
         {
             "name": "craftcms/html-field",
@@ -808,65 +763,6 @@
             "time": "2024-02-05T11:56:58+00:00"
         },
         {
-            "name": "doublesecretagency/craft-googlemaps",
-            "version": "5.0.2",
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/doublesecretagency/craft-googlemaps/zipball/7d5923b0725ce30539777651d9c513dc24229c31",
-                "reference": "7d5923b0725ce30539777651d9c513dc24229c31",
-                "shasum": ""
-            },
-            "require": {
-                "craftcms/cms": "^5.0.0"
-            },
-            "replace": {
-                "doublesecretagency/craft-smartmap": "3.*"
-            },
-            "type": "craft-plugin",
-            "extra": {
-                "name": "Google Maps",
-                "handle": "google-maps",
-                "class": "doublesecretagency\\googlemaps\\GoogleMapsPlugin"
-            },
-            "autoload": {
-                "psr-4": {
-                    "doublesecretagency\\googlemaps\\": "src/",
-                    "doublesecretagency\\smartmap\\": "legacy/"
-                }
-            },
-            "license": [
-                "proprietary"
-            ],
-            "authors": [
-                {
-                    "name": "Double Secret Agency",
-                    "homepage": "https://plugins.doublesecretagency.com"
-                }
-            ],
-            "description": "Maps in minutes. Powered by the Google Maps API.",
-            "keywords": [
-                "address",
-                "cms",
-                "craft",
-                "craft-plugin",
-                "craftcms",
-                "geocoding",
-                "geolocation",
-                "google-maps",
-                "google-maps-api",
-                "locations",
-                "map",
-                "proximity-search",
-                "smart-map",
-                "smartmap"
-            ],
-            "support": {
-                "docs": "https://plugins.doublesecretagency.com/google-maps",
-                "issues": "https://github.com/doublesecretagency/craft-googlemaps/issues"
-            },
-            "time": "2024-04-12T21:34:38+00:00"
-        },
-        {
             "name": "egulias/email-validator",
             "version": "4.0.2",
             "dist": {
@@ -975,52 +871,6 @@
             "time": "2024-06-18T10:27:15+00:00"
         },
         {
-            "name": "ether/simplemap",
-            "version": "5.0.3",
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/ethercreative/simplemap/zipball/4350facb111da5dfbd5de5e1fd25f5c192c5f10d",
-                "reference": "4350facb111da5dfbd5de5e1fd25f5c192c5f10d",
-                "shasum": ""
-            },
-            "require": {
-                "craftcms/cms": "^5.0.0",
-                "ext-json": "*",
-                "ext-openssl": "*",
-                "ext-zlib": "*",
-                "geoip2/geoip2": "~2.0",
-                "guzzlehttp/guzzle": "^6.3.3|^7.2.0",
-                "mapkit/jwt": "^1.1.2",
-                "php": "^8.2",
-                "what3words/w3w-php-wrapper": "3.*"
-            },
-            "type": "craft-plugin",
-            "extra": {
-                "handle": "simplemap",
-                "name": "Maps",
-                "developer": "Ether Creative",
-                "developerUrl": "https://ethercreative.co.uk",
-                "class": "ether\\simplemap\\SimpleMap",
-                "schemaVersion": "3.4.2"
-            },
-            "autoload": {
-                "psr-4": {
-                    "ether\\simplemap\\": "src/"
-                }
-            },
-            "license": [
-                "proprietary"
-            ],
-            "description": "A beautifully simple Map field type for Craft CMS",
-            "support": {
-                "email": "help@ethercreative.co.uk",
-                "docs": "https://docs.ethercreative.co.uk/maps",
-                "source": "https://github.com/ethercreative/simplemap",
-                "issues": "https://github.com/ethercreative/simplemap/issues"
-            },
-            "time": "2024-09-16T10:18:07+00:00"
-        },
-        {
             "name": "ezyang/htmlpurifier",
             "version": "v4.18.0",
             "dist": {
@@ -1066,48 +916,6 @@
                 "html"
             ],
             "time": "2024-11-01T03:51:45+00:00"
-        },
-        {
-            "name": "geoip2/geoip2",
-            "version": "v2.13.0",
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/maxmind/GeoIP2-php/zipball/6a41d8fbd6b90052bc34dff3b4252d0f88067b23",
-                "reference": "6a41d8fbd6b90052bc34dff3b4252d0f88067b23",
-                "shasum": ""
-            },
-            "require": {
-                "ext-json": "*",
-                "maxmind-db/reader": "~1.8",
-                "maxmind/web-service-common": "~0.8",
-                "php": ">=7.2"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "GeoIp2\\": "src"
-                }
-            },
-            "license": [
-                "Apache-2.0"
-            ],
-            "authors": [
-                {
-                    "name": "Gregory J. Oschwald",
-                    "email": "goschwald@maxmind.com",
-                    "homepage": "https://www.maxmind.com/"
-                }
-            ],
-            "description": "MaxMind GeoIP2 PHP API",
-            "homepage": "https://github.com/maxmind/GeoIP2-php",
-            "keywords": [
-                "IP",
-                "geoip",
-                "geoip2",
-                "geolocation",
-                "maxmind"
-            ],
-            "time": "2022-08-05T20:32:58+00:00"
         },
         {
             "name": "graham-campbell/result-type",
@@ -1574,115 +1382,6 @@
             "time": "2024-09-24T20:45:14+00:00"
         },
         {
-            "name": "mapkit/jwt",
-            "version": "v1.1.3",
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/leanmotherfuckers/mapkit-jwt/zipball/19e502a991dbcb4becbcb51775b29aae624f551d",
-                "reference": "19e502a991dbcb4becbcb51775b29aae624f551d",
-                "shasum": ""
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Mapkit\\": "src/"
-                }
-            },
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Thomas Schoffelen",
-                    "email": "thomas@includable.com"
-                }
-            ],
-            "description": "Simple class to create MapKit and MusicKit JWT tokens.",
-            "time": "2019-06-10T05:32:35+00:00"
-        },
-        {
-            "name": "maxmind-db/reader",
-            "version": "v1.11.1",
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/maxmind/MaxMind-DB-Reader-php/zipball/1e66f73ffcf25e17c7a910a1317e9720a95497c7",
-                "reference": "1e66f73ffcf25e17c7a910a1317e9720a95497c7",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=7.2"
-            },
-            "conflict": {
-                "ext-maxminddb": "<1.11.1,>=2.0.0"
-            },
-            "suggest": {
-                "ext-bcmath": "bcmath or gmp is required for decoding larger integers with the pure PHP decoder",
-                "ext-gmp": "bcmath or gmp is required for decoding larger integers with the pure PHP decoder",
-                "ext-maxminddb": "A C-based database decoder that provides significantly faster lookups"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "MaxMind\\Db\\": "src/MaxMind/Db"
-                }
-            },
-            "license": [
-                "Apache-2.0"
-            ],
-            "authors": [
-                {
-                    "name": "Gregory J. Oschwald",
-                    "email": "goschwald@maxmind.com",
-                    "homepage": "https://www.maxmind.com/"
-                }
-            ],
-            "description": "MaxMind DB Reader API",
-            "homepage": "https://github.com/maxmind/MaxMind-DB-Reader-php",
-            "keywords": [
-                "database",
-                "geoip",
-                "geoip2",
-                "geolocation",
-                "maxmind"
-            ],
-            "time": "2023-12-02T00:09:23+00:00"
-        },
-        {
-            "name": "maxmind/web-service-common",
-            "version": "v0.9.0",
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/maxmind/web-service-common-php/zipball/4dc5a3e8df38aea4ca3b1096cee3a038094e9b53",
-                "reference": "4dc5a3e8df38aea4ca3b1096cee3a038094e9b53",
-                "shasum": ""
-            },
-            "require": {
-                "composer/ca-bundle": "^1.0.3",
-                "ext-curl": "*",
-                "ext-json": "*",
-                "php": ">=7.2"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "MaxMind\\Exception\\": "src/Exception",
-                    "MaxMind\\WebService\\": "src/WebService"
-                }
-            },
-            "license": [
-                "Apache-2.0"
-            ],
-            "authors": [
-                {
-                    "name": "Gregory Oschwald",
-                    "email": "goschwald@maxmind.com"
-                }
-            ],
-            "description": "Internal MaxMind Web Service API",
-            "homepage": "https://github.com/maxmind/web-service-common-php",
-            "time": "2022-03-28T17:43:20+00:00"
-        },
-        {
             "name": "mikehaertl/php-shellcommand",
             "version": "1.7.0",
             "dist": {
@@ -2016,11 +1715,6 @@
         {
             "name": "phpdocumentor/reflection-docblock",
             "version": "5.5.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/phpDocumentor/ReflectionDocBlock.git",
-                "reference": "0c70d2c566e899666f367ab7b80986beb3581e6f"
-            },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/phpDocumentor/ReflectionDocBlock/zipball/0c70d2c566e899666f367ab7b80986beb3581e6f",
@@ -2036,15 +1730,6 @@
                 "phpstan/phpdoc-parser": "^1.7",
                 "webmozart/assert": "^1.9.1"
             },
-            "require-dev": {
-                "mockery/mockery": "~1.3.5 || ~1.6.0",
-                "phpstan/extension-installer": "^1.1",
-                "phpstan/phpstan": "^1.8",
-                "phpstan/phpstan-mockery": "^1.1",
-                "phpstan/phpstan-webmozart-assert": "^1.2",
-                "phpunit/phpunit": "^9.5",
-                "psalm/phar": "^5.26"
-            },
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -2056,7 +1741,6 @@
                     "phpDocumentor\\Reflection\\": "src"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -2071,26 +1755,22 @@
                 }
             ],
             "description": "With this component, a library can provide support for annotations via DocBlocks or otherwise retrieve information that is embedded in a DocBlock.",
-            "support": {
-                "issues": "https://github.com/phpDocumentor/ReflectionDocBlock/issues",
-                "source": "https://github.com/phpDocumentor/ReflectionDocBlock/tree/5.5.1"
-            },
             "time": "2024-11-06T11:58:54+00:00"
         },
         {
             "name": "phpdocumentor/type-resolver",
-            "version": "1.9.0",
+            "version": "1.10.0",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpDocumentor/TypeResolver/zipball/1fb5ba8d045f5dd984ebded5b1cc66f29459422d",
-                "reference": "1fb5ba8d045f5dd984ebded5b1cc66f29459422d",
+                "url": "https://api.github.com/repos/phpDocumentor/TypeResolver/zipball/679e3ce485b99e84c775d28e2e96fade9a7fb50a",
+                "reference": "679e3ce485b99e84c775d28e2e96fade9a7fb50a",
                 "shasum": ""
             },
             "require": {
                 "doctrine/deprecations": "^1.0",
                 "php": "^7.3 || ^8.0",
                 "phpdocumentor/reflection-common": "^2.0",
-                "phpstan/phpdoc-parser": "^1.18"
+                "phpstan/phpdoc-parser": "^1.18|^2.0"
             },
             "type": "library",
             "extra": {
@@ -2113,7 +1793,7 @@
                 }
             ],
             "description": "A PSR-5 based resolver of Class names, Types and Structural Element Names",
-            "time": "2024-11-03T20:11:34+00:00"
+            "time": "2024-11-09T15:12:26+00:00"
         },
         {
             "name": "phpoption/phpoption",
@@ -3134,11 +2814,6 @@
         {
             "name": "symfony/http-client",
             "version": "v6.4.14",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/http-client.git",
-                "reference": "05d88cbd816ad6e0202edd9a9963cb9d615b8826"
-            },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/http-client/zipball/05d88cbd816ad6e0202edd9a9963cb9d615b8826",
@@ -3162,21 +2837,6 @@
                 "psr/http-client-implementation": "1.0",
                 "symfony/http-client-implementation": "3.0"
             },
-            "require-dev": {
-                "amphp/amp": "^2.5",
-                "amphp/http-client": "^4.2.1",
-                "amphp/http-tunnel": "^1.0",
-                "amphp/socket": "^1.1",
-                "guzzlehttp/promises": "^1.4|^2.0",
-                "nyholm/psr7": "^1.0",
-                "php-http/httplug": "^1.0|^2.0",
-                "psr/http-client": "^1.0",
-                "symfony/dependency-injection": "^5.4|^6.0|^7.0",
-                "symfony/http-kernel": "^5.4|^6.0|^7.0",
-                "symfony/messenger": "^5.4|^6.0|^7.0",
-                "symfony/process": "^5.4|^6.0|^7.0",
-                "symfony/stopwatch": "^5.4|^6.0|^7.0"
-            },
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -3186,7 +2846,6 @@
                     "/Tests/"
                 ]
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -3204,23 +2863,6 @@
             "homepage": "https://symfony.com",
             "keywords": [
                 "http"
-            ],
-            "support": {
-                "source": "https://github.com/symfony/http-client/tree/v6.4.14"
-            },
-            "funding": [
-                {
-                    "url": "https://symfony.com/sponsor",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/fabpot",
-                    "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
-                    "type": "tidelift"
-                }
             ],
             "time": "2024-11-05T16:39:55+00:00"
         },
@@ -3935,11 +3577,6 @@
         {
             "name": "symfony/process",
             "version": "v7.1.7",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/process.git",
-                "reference": "9b8a40b7289767aa7117e957573c2a535efe6585"
-            },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/process/zipball/9b8a40b7289767aa7117e957573c2a535efe6585",
@@ -3958,7 +3595,6 @@
                     "/Tests/"
                 ]
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -3974,23 +3610,6 @@
             ],
             "description": "Executes commands in sub-processes",
             "homepage": "https://symfony.com",
-            "support": {
-                "source": "https://github.com/symfony/process/tree/v7.1.7"
-            },
-            "funding": [
-                {
-                    "url": "https://symfony.com/sponsor",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/fabpot",
-                    "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
-                    "type": "tidelift"
-                }
-            ],
             "time": "2024-11-06T09:25:12+00:00"
         },
         {
@@ -4369,11 +3988,6 @@
         {
             "name": "symfony/var-dumper",
             "version": "v5.4.46",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/var-dumper.git",
-                "reference": "f51f11e4fc5ca24fa0defcdf4df027078950b9e0"
-            },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/var-dumper/zipball/f51f11e4fc5ca24fa0defcdf4df027078950b9e0",
@@ -4387,14 +4001,6 @@
             },
             "conflict": {
                 "symfony/console": "<4.4"
-            },
-            "require-dev": {
-                "ext-iconv": "*",
-                "symfony/console": "^4.4|^5.0|^6.0",
-                "symfony/http-kernel": "^4.4|^5.0|^6.0",
-                "symfony/process": "^4.4|^5.0|^6.0",
-                "symfony/uid": "^5.1|^6.0",
-                "twig/twig": "^2.13|^3.0.4"
             },
             "suggest": {
                 "ext-iconv": "To convert non-UTF-8 strings to UTF-8 (or symfony/polyfill-iconv in case ext-iconv cannot be used).",
@@ -4416,7 +4022,6 @@
                     "/Tests/"
                 ]
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -4435,23 +4040,6 @@
             "keywords": [
                 "debug",
                 "dump"
-            ],
-            "support": {
-                "source": "https://github.com/symfony/var-dumper/tree/v5.4.46"
-            },
-            "funding": [
-                {
-                    "url": "https://symfony.com/sponsor",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/fabpot",
-                    "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
-                    "type": "tidelift"
-                }
             ],
             "time": "2024-11-05T14:17:06+00:00"
         },
@@ -4539,11 +4127,11 @@
         },
         {
             "name": "twig/twig",
-            "version": "v3.14.1",
+            "version": "v3.14.2",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/f405356d20fb43603bcadc8b09bfb676cb04a379",
-                "reference": "f405356d20fb43603bcadc8b09bfb676cb04a379",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/0b6f9d8370bb3b7f1ce5313ed8feb0fafd6e399a",
+                "reference": "0b6f9d8370bb3b7f1ce5313ed8feb0fafd6e399a",
                 "shasum": ""
             },
             "require": {
@@ -4590,7 +4178,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2024-11-06T18:17:38+00:00"
+            "time": "2024-11-07T12:36:22+00:00"
         },
         {
             "name": "verbb/base",
@@ -5325,46 +4913,6 @@
             "time": "2023-07-05T14:23:37+00:00"
         },
         {
-            "name": "what3words/w3w-php-wrapper",
-            "version": "v3.4.0",
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/what3words/w3w-php-wrapper/zipball/3101bbe27db81931afa9f5bb730dff0b5dcffc8e",
-                "reference": "3101bbe27db81931afa9f5bb730dff0b5dcffc8e",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.4"
-            },
-            "type": "library",
-            "extra": {
-                "thanks": "Thanks from all of us at index.home.raft for using what3words"
-            },
-            "autoload": {
-                "psr-4": {
-                    "What3words\\Geocoder\\": "src"
-                }
-            },
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "what3words",
-                    "email": "support@what3words.com",
-                    "homepage": "http://developer.what3words.com"
-                }
-            ],
-            "description": "A PHP library to use the what3words RESTful API",
-            "homepage": "https://github.com/what3words/w3w-php-wrapper",
-            "keywords": [
-                "3 word address",
-                "geocoding",
-                "what3words"
-            ],
-            "time": "2024-05-30T17:18:58+00:00"
-        },
-        {
             "name": "yiisoft/yii2",
             "version": "2.0.51",
             "dist": {
@@ -5747,12 +5295,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:craftcms/wp-import.git",
-                "reference": "3980169e6b8dd57542f69e96d47b450e279e4e45"
+                "reference": "62558efebc40db311160238500dfdb79d9ddcd89"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/craftcms/wp-import/zipball/3980169e6b8dd57542f69e96d47b450e279e4e45",
-                "reference": "3980169e6b8dd57542f69e96d47b450e279e4e45",
+                "url": "https://api.github.com/repos/craftcms/wp-import/zipball/62558efebc40db311160238500dfdb79d9ddcd89",
+                "reference": "62558efebc40db311160238500dfdb79d9ddcd89",
                 "shasum": ""
             },
             "require": {
@@ -5817,7 +5365,7 @@
                 "source": "https://github.com/craftcms/wp-import",
                 "rss": "https://github.com/craftcms/wp-import/releases.atom"
             },
-            "time": "2024-11-06T05:40:04+00:00"
+            "time": "2024-11-10T02:06:47+00:00"
         },
         {
             "name": "masterminds/html5",
@@ -6107,11 +5655,6 @@
         {
             "name": "symfony/console",
             "version": "v6.4.14",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/console.git",
-                "reference": "897c2441ed4eec8a8a2c37b943427d24dba3f26b"
-            },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/console/zipball/897c2441ed4eec8a8a2c37b943427d24dba3f26b",
@@ -6135,19 +5678,6 @@
             "provide": {
                 "psr/log-implementation": "1.0|2.0|3.0"
             },
-            "require-dev": {
-                "psr/log": "^1|^2|^3",
-                "symfony/config": "^5.4|^6.0|^7.0",
-                "symfony/dependency-injection": "^5.4|^6.0|^7.0",
-                "symfony/event-dispatcher": "^5.4|^6.0|^7.0",
-                "symfony/http-foundation": "^6.4|^7.0",
-                "symfony/http-kernel": "^6.4|^7.0",
-                "symfony/lock": "^5.4|^6.0|^7.0",
-                "symfony/messenger": "^5.4|^6.0|^7.0",
-                "symfony/process": "^5.4|^6.0|^7.0",
-                "symfony/stopwatch": "^5.4|^6.0|^7.0",
-                "symfony/var-dumper": "^5.4|^6.0|^7.0"
-            },
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -6157,7 +5687,6 @@
                     "/Tests/"
                 ]
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -6178,23 +5707,6 @@
                 "command-line",
                 "console",
                 "terminal"
-            ],
-            "support": {
-                "source": "https://github.com/symfony/console/tree/v6.4.14"
-            },
-            "funding": [
-                {
-                    "url": "https://symfony.com/sponsor",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/fabpot",
-                    "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
-                    "type": "tidelift"
-                }
             ],
             "time": "2024-11-05T15:34:40+00:00"
         },

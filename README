@@ -20,6 +20,10 @@ Create a project directory and move into it:
 mkdir my-craft-project
 cd my-craft-project/
 
+Install dependencies:
+
+ddev composer install
+
 Start ddev:
 
 ddev start
