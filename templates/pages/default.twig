@@ -7,5 +7,3 @@
     {% block landing %}{% endblock %}
   </section>
 {% endblock %}
-{% set category = entry.categories.eagerly().one() ?? null %}
-{% set tags = entry.tags.eagerly().all() ?? null %}
