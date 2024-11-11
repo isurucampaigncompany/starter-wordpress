@@ -1,4 +1,4 @@
-<dl class="details-block my-8">
-  <dt>Published</dt>
-  <dd>{{ entry.postDate|date('d M Y') }}</dd>
-</dl> 
+<details class="details-block">
+  <summary>{{ entry.summary }}</summary>
+  {{ entry.postContent }}
+</details>

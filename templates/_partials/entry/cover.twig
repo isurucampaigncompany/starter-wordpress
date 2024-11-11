@@ -1,0 +1,9 @@
+{% import '_utilities/image' as img %}
+
+<div class="cover-block relative">
+  {% set assets = entry.media.eagerly().all() %}
+  {{ img.pictures(assets) }}
+  <div class="container absolute inset-0 flex items-center justify-center">
+    <p class="text-center text-white text-4xl">{{ entry.title }}</p>
+  </div>
+</div>

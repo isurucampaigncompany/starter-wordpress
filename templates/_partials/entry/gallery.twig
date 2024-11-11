@@ -1,0 +1,10 @@
+{% import '_utilities/image' as img %}
+
+<div class="gallery-block">
+  {% for image in entry.gallery %}
+  <figure>
+      {% set assets = image.media.eagerly().all() %}
+      {{ img.pictures(assets) }}
+    </figure>
+  {% endfor %}
+</div>

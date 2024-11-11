@@ -1,0 +1,7 @@
+{% import '_utilities/image' as img %}
+
+<div class="columns-block grid grid-cols-3 tw-gap-4">
+  {% for column in entry.columns %}
+    {{ column.pageContent }}
+  {% endfor %}
+</div>

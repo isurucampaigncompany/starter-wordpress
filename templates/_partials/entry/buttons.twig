@@ -1,0 +1,7 @@
+{% import '_utilities/button' as btn %}
+
+<div class="buttons-block">
+  {% for button in entry.buttons %}
+    {{ btn.button(button) }}
+  {% endfor %}
+</div>
