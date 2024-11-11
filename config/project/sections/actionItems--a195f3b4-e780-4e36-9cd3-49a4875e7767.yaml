@@ -1,7 +1,7 @@
 defaultPlacement: end
 enableVersioning: false
 entryTypes:
-  - 95960eea-4a79-4e72-960f-516e4e24f7a4 # Action Item
+  - 95960eea-4a79-4e72-960f-516e4e24f7a4
 handle: actionItems
 maxAuthors: 1
 name: 'Action Items'

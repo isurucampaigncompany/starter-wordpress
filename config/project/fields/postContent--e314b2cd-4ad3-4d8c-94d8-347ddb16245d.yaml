@@ -13,7 +13,7 @@ settings:
   entryTypes:
     - d2356f61-430b-423e-a52e-a167fc52ba47 # Media
     - c34c148c-8e45-4867-b6c2-1ad69ba00f5e # Video
-    - ff0c2e4b-8cfb-4e47-9216-751983be5496 # CodePen Embed
+    - ff0c2e4b-8cfb-4e47-9216-751983be5496
     - 36ca6464-18ad-4f2a-9ae0-e8da4e00c94a # Group
     - 354a145a-dc30-40c6-abe4-35c0fb93abeb # Details
     - fc8630bf-cc94-4830-8e52-40246afab5e5 # Button

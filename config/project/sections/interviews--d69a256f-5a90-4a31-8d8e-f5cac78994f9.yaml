@@ -1,7 +1,7 @@
 defaultPlacement: end
 enableVersioning: false
 entryTypes:
-  - 7e840cd6-eb2d-44b1-a20a-ca7ba60b1fc2 # Interview
+  - 7e840cd6-eb2d-44b1-a20a-ca7ba60b1fc2
 handle: interviews
 maxAuthors: 1
 name: Interviews
