@@ -1,38 +1,32 @@
 # Craft wordpress import starter
-This is a starter project for porting WordPress sites. It's a basic install that requires no database dump and no npm and only uses one first-party plugin (CKeditor) to keep things simple and maintailable as possible. It includes:
+A pre-configured Craft CMS starter project designed to streamline the migration process from WordPress. This project provides a foundation that closely mirrors a default WordPress installation, making it easier to import and work with your WordPress content.
 
-* A single for globals
-* A home page single
-* A blog single with articles channel and category structure
-* A guestbook single with guestbook entries channel
-* A pages structure for additional pages and subpages
-* A Cloud-ready assets volume
-* A basic template boilerplate in Twig to test with and act as a starting point to port to other front-ends
+## Features
 
-The Entries sidebar has also been configured to make these pages and sections easier to find for this setup.
+- Ready-to-use templates for common WordPress content types
+- Live Preview configured out of the box
+- Sensible defaults that match WordPress content structure
+- Inclued plugins to import your data:
+  - The official [WordPress Import plugin](https://github.com/craftcms/wp-import)
+  - The official [CKEditor plugin](https://plugins.craftcms.com/ckeditor)
+  - [Verbb Comments](https://plugins.craftcms.com/comments)
 
+## Requirements
+
+- PHP 8.0.2+
+- Composer 2.0+
+- MySQL 5.7.8+ or PostgreSQL 10+
+- A WordPress site to migrate from
+- 
 While we strongly recommend DDEV for new Craft projects, alternate installation methods are available for anyone with a preexisting environment or preferred workflow that meets its requirements.
 
 Install or update DDEV(opens new window), then follow these steps:
 
 Create a project directory and move into it:
 
-mkdir my-craft-project
-cd my-craft-project/
+mkdir craft-wp
+cd craft-wp/
 
-Install dependencies:
+Bootstrap the project using the craftcms/starter-wordpress package:
 
-ddev composer install
-
-Start ddev:
-
-ddev start
-
-Run the Craft setup wizard, and accept all defaults (in [square brackets]):
-
-ddev craft install
-
-Our First-Time Setup(opens new window) guide in the Knowledge Base has more information about what to expect during setup.
-
-Congratulations! You now have a fully-functional Craft application installed and configured. Run ddev launch to view the starter project’s welcome screen:
-
+ddev composer create -y "craftcms/starter-wordpress"
