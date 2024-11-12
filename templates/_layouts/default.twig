@@ -80,7 +80,7 @@
   
   {% include "_partials/header" %}
 
-  <main class="page {% if entry is defined %}{{ entry.slug }}{% endif %}" id="main" tabindex="-1">
+  <main class="page min-h-screen {% if entry is defined %}{{ entry.slug }}{% endif %}" id="main" tabindex="-1">
     {% block content %}{% endblock %}
   </main>
 
