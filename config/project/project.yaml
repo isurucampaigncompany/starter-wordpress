@@ -1,86 +1,20 @@
-dateModified: 1731284882
+dateModified: 1731399038
 email:
   fromEmail: travis@pixelandtonic.com
-  fromName: 'Screw The Cubicle'
+  fromName: travis@pixelandtonic.com
+  replyToEmail: null
+  template: null
+  transportSettings:
+    command: '/usr/local/bin/mailpit sendmail -t --smtp-addr 127.0.0.1:1025'
   transportType: craft\mail\transportadapters\Sendmail
-fs:
-  uploads:
-    hasUrls: true
-    name: Uploads
-    settings:
-      path: '@webroot/uploads'
-    type: craft\fs\Local
-    url: /uploads
 meta:
   __names__:
-    0ec3b4b8-86ce-4f91-8887-ba02fd2e0767: File # File
     0ff5ed7e-a51c-4d65-82bc-8a9b37bea3c8: 'Wordpress Starter' # Wordpress Starter
-    3af1f008-1471-42e9-bb3e-cd8cc081a76f: 'Timeline Type' # Timeline Type
-    3d08fc1e-5bb3-4af7-9ad9-7dc9494ddcbd: Color # Color
-    5a524179-b073-4ec2-a219-674143dbc455: Tags # Tags
-    5b6d35db-63df-470b-9bf8-dde9868ed1a4: Conferences # Conferences
-    5fc77cf8-f9ea-4f65-86b9-2efd2b80b079: 'Post Object' # Post Object
-    6b721947-0f19-42de-8f1a-37cffb65f0a9: Categories # Categories
-    7b8744f4-248a-425a-9bc1-f4e67cf2e7c4: Relationship # Relationship
-    7e2aabf9-48f2-4671-b232-546499a18d43: Template # Template
     08a529f2-1255-4bc6-9680-ec89d97b23fa: 'Public Schema' # Public Schema
-    8ae18221-b04f-4809-af4b-b3db3b8a642f: URL # URL
-    8c29be24-9d81-4099-a332-8c9bb867917f: 'Date Time' # Date Time
-    8d9f369e-819f-4290-9e67-d9503ad717e7: URL # URL
-    8da2a8dd-8663-4023-b062-409e6d99a201: Time # Time
-    9cba6960-76fe-4a90-af57-1169673e738c: 'Genre Link' # Genre Link
-    18a5282e-f33b-42c7-b6c8-173d5400d3ff: Post # Post
-    22e94a09-0f7c-4a1f-9981-7fc0605d83fa: 'Link URL' # Link URL
-    25ac5e32-778c-48a8-8600-4e9e1a092216: Publication # Publication
-    36ca6464-18ad-4f2a-9ae0-e8da4e00c94a: Group # Group
-    39a52cc1-2152-4f07-8a95-2768570e084d: Date # Date
-    45f051f7-103c-4dc0-9c5e-4069df0b680a: User # User
-    50decd63-d357-47fd-a403-8f8e768c41b1: Global # Global
-    53fa3ad6-f2b0-4abd-bc52-ec0f6e6ce9fb: Radios # Radios
-    68d4b67e-54f4-47c9-97cb-ff232d3d1e24: Image # Image
-    71dcbb5f-5f3a-4310-93d5-0fe27d7b73cf: Genres # Genres
-    354a145a-dc30-40c6-abe4-35c0fb93abeb: Details # Details
-    677c2b2b-14a7-4692-8bb8-b4dc667e1a12: Tags # Tags
-    732bcbe8-6386-488e-9c0d-15cccfb3d49c: Full # Full
-    823d0683-c67f-4f2b-a9be-ac477badef58: Global # Global
-    858d8f32-1b71-4690-9b65-1419de99af54: Location # Location
-    890a460f-51ce-4043-bc73-73101df78c50: Number # Number
-    934bb3e9-337e-406b-9a21-328cab1cbbb2: Date # Date
-    3944dd4b-41c9-40e5-abee-b4a365a25540: Address # Address
-    4204e7a2-12a5-44bf-86a6-5218e5b0105e: 'Timeline Date' # Timeline Date
-    7023c1e6-1c14-4b33-89bf-e29c5ccaed21: Icon # Icon
-    7261a233-a194-4374-8a55-91770cef7528: 'Post Content' # Post Content
-    7820ff9c-52f7-48b6-ae99-1a6effa6f593: 'Button Group' # Button Group
-    7966bab3-7b31-4dae-a371-99b695b20239: Swich # Swich
-    7978bbfe-24a3-4f8e-b7d6-a3dbcadb0cfe: Email # Email
-    0860788f-c61f-488d-b0e6-3de270710945: Posts # Posts
+    23a3f2f7-2b22-4a38-835a-342440a6a2ce: Home # Home
+    936d7cd3-b422-4bc9-80dd-63bdfeb5ca47: Home # Home
     37938585-7d7b-4d97-94f7-73dc07d795c2: 'Wordpress Starter' # Wordpress Starter
-    78897448-d29a-4532-bec9-d80681a5d8a5: Simple # Simple
-    79559275-ab81-4420-abf1-1c848a0a68d6: Sticky # Sticky
-    a195f3b4-e780-4e36-9cd3-49a4875e7767: 'Action Items' # Action Items
-    a553e2eb-f7c3-4f3e-a07e-27f4c94cec86: Media # Media
-    aea33289-ee6e-4cd2-bf1e-3d38334e650c: Checkboxes # Checkboxes
-    aef94bed-119a-4559-b04b-20a1c57e5cc9: Range # Range
-    b6c4299e-6af3-4049-9566-14675dad34d7: Genres # Genres
-    b7c2c9b6-2310-4aa6-b934-aeff5d9e600b: oEmbed # oEmbed
-    b10bb931-be55-44fc-ade2-a3d5603ac315: Categories # Categories
-    b23e4969-54b7-4046-b460-0ed82eecaba4: 'Text Area' # Text Area
-    b965d485-ef3f-4f32-a3bc-8f9048edf610: 'Page link' # Page link
-    bc81b109-6ec2-4872-8cfe-0fccc0af842a: 'Timeline Copy' # Timeline Copy
-    c8b3b3d8-cd96-4f72-a4e0-a3291b0bf22c: 'Custom Genre Field' # Custom Genre Field
-    c23bcc94-9f9b-42ae-aca6-b5afb8be5e86: 'Comment Options' # Comment Options
-    c34c148c-8e45-4867-b6c2-1ad69ba00f5e: Video # Video
-    d69a256f-5a90-4a31-8d8e-f5cac78994f9: Interviews # Interviews
-    d147c081-e3fc-42d9-9991-1e915a0d70e2: Pages # Pages
-    d958a069-fc64-431a-91bc-3141612304be: Format # Format
-    d2356f61-430b-423e-a52e-a167fc52ba47: Media # Media
-    dc4d106e-d508-4308-869a-7e2b8434efbe: URL # URL
-    dee725db-134a-40f3-bd54-199353365c57: Summary # Summary
-    e2e9e366-21ea-41b0-bb0b-12388972f531: Link # Link
-    e314b2cd-4ad3-4d8c-94d8-347ddb16245d: 'Post Content' # Post Content
-    ec2af108-def7-419e-b9fd-53f0d4289b0d: Color # Color
-    f6c10cd4-ebf3-4ffe-a27e-17fce95fba2a: Page # Page
-    fc8630bf-cc94-4830-8e52-40246afab5e5: Button # Button
+    c55ca0a9-4bd6-409b-afd8-c1884dafecd0: Team # Team
 plugins:
   ckeditor:
     edition: standard
@@ -130,6 +64,20 @@ plugins:
       orderBy: desc
       outputDefaultCss: true
       outputDefaultJs: true
+      permissions:
+        __assoc__:
+          -
+            - craft\elements\Asset
+            - '*'
+          -
+            - craft\elements\Category
+            - '*'
+          -
+            - craft\elements\Entry
+            - '*'
+          -
+            - craft\elements\User
+            - '*'
       placeholderAvatar: null
       pluginName: Comments
       recaptchaEnabled: false

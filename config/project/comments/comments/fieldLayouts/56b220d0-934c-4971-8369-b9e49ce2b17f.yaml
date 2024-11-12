@@ -1,28 +1,20 @@
 tabs:
   -
     elementCondition: null
-    name: 'Comment Form'
-    uid: a1534220-1fed-4239-b8bd-4cd7fa06d077
-    userCondition: null
-  -
-    elementCondition: null
     elements:
       -
-        dateAdded: '2024-11-06T17:08:59-08:00'
+        dateAdded: '2024-11-12T07:37:06+00:00'
         elementCondition: null
-        fieldUid: 4d06012a-2d8a-4e92-bf6b-de74bdd1be0b
-        handle: null
         includeInCards: false
         instructions: null
-        label: null
+        label: __blank__
         providesThumbs: false
-        required: false
+        required: true
         tip: null
-        type: craft\fieldlayoutelements\CustomField
-        uid: 40a193c7-45d4-4bb4-8f5e-5db58937c3fc
+        type: verbb\comments\fieldlayoutelements\CommentsField
+        uid: a12964f8-7513-4766-9075-058fe250e15e
         userCondition: null
         warning: null
-        width: 100
-    name: WordPress
-    uid: 2ef5dc08-3e53-48d3-bcc3-e864bcd74d8b
+    name: 'Comment Form'
+    uid: a1534220-1fed-4239-b8bd-4cd7fa06d077
     userCondition: null
