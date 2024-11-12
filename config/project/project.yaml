@@ -1,24 +1,21 @@
-dateModified: 1731396987
+dateModified: 1731397304
 email:
   fromEmail: travis@pixelandtonic.com
-  fromName: 'Screw The Cubicle'
+  fromName: travis@pixelandtonic.com
+  replyToEmail: null
+  template: null
+  transportSettings:
+    command: '/usr/local/bin/mailpit sendmail -t --smtp-addr 127.0.0.1:1025'
   transportType: craft\mail\transportadapters\Sendmail
-fs:
-  uploads:
-    hasUrls: true
-    name: Uploads
-    settings:
-      path: '@webroot/uploads'
-    type: craft\fs\Local
-    url: /uploads
 meta:
   __names__:
     0ff5ed7e-a51c-4d65-82bc-8a9b37bea3c8: 'Wordpress Starter' # Wordpress Starter
+    4c8edf71-ef0c-4ba3-ba4e-cf0ef5ac36ea: Caption # Caption
+    4d06012a-2d8a-4e92-bf6b-de74bdd1be0b: 'WordPres ID' # WordPres ID
     08a529f2-1255-4bc6-9680-ec89d97b23fa: 'Public Schema' # Public Schema
-    732bcbe8-6386-488e-9c0d-15cccfb3d49c: Full # Full
-    7261a233-a194-4374-8a55-91770cef7528: 'Post Content' # Post Content
     37938585-7d7b-4d97-94f7-73dc07d795c2: 'Wordpress Starter' # Wordpress Starter
-    78897448-d29a-4532-bec9-d80681a5d8a5: Simple # Simple
+    b636e420-0741-4bd3-b8b2-89a8d50806f9: Description # Description
+    c55ca0a9-4bd6-409b-afd8-c1884dafecd0: Team # Team
 plugins:
   ckeditor:
     edition: standard
@@ -68,6 +65,20 @@ plugins:
       orderBy: desc
       outputDefaultCss: true
       outputDefaultJs: true
+      permissions:
+        __assoc__:
+          -
+            - craft\elements\Asset
+            - '*'
+          -
+            - craft\elements\Category
+            - '*'
+          -
+            - craft\elements\Entry
+            - '*'
+          -
+            - craft\elements\User
+            - '*'
       placeholderAvatar: null
       pluginName: Comments
       recaptchaEnabled: false
