@@ -1,10 +1,10 @@
 defaultPlacement: end
 enableVersioning: true
 entryTypes:
-  - f6c10cd4-ebf3-4ffe-a27e-17fce95fba2a # Page
-handle: pages
+  - 23a3f2f7-2b22-4a38-835a-342440a6a2ce # Home
+handle: home
 maxAuthors: 1
-name: Pages
+name: Home
 previewTargets:
   -
     __assoc__:
@@ -22,9 +22,6 @@ siteSettings:
   37938585-7d7b-4d97-94f7-73dc07d795c2: # Wordpress Starter
     enabledByDefault: true
     hasUrls: true
-    template: _post.twig
-    uriFormat: '{postDate|date(''Y'')}/{postDate|date(''m'')}/{slug}'
-structure:
-  maxLevels: null
-  uid: f9f76746-2941-48c2-bdc0-8946b8b5ae7d
-type: structure
+    template: index.twig
+    uriFormat: __home__
+type: single
