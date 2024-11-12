@@ -1,4 +1,4 @@
-dateModified: 1731397304
+dateModified: 1731399038
 email:
   fromEmail: travis@pixelandtonic.com
   fromName: travis@pixelandtonic.com
@@ -10,11 +10,10 @@ email:
 meta:
   __names__:
     0ff5ed7e-a51c-4d65-82bc-8a9b37bea3c8: 'Wordpress Starter' # Wordpress Starter
-    4c8edf71-ef0c-4ba3-ba4e-cf0ef5ac36ea: Caption # Caption
-    4d06012a-2d8a-4e92-bf6b-de74bdd1be0b: 'WordPres ID' # WordPres ID
     08a529f2-1255-4bc6-9680-ec89d97b23fa: 'Public Schema' # Public Schema
+    23a3f2f7-2b22-4a38-835a-342440a6a2ce: Home # Home
+    936d7cd3-b422-4bc9-80dd-63bdfeb5ca47: Home # Home
     37938585-7d7b-4d97-94f7-73dc07d795c2: 'Wordpress Starter' # Wordpress Starter
-    b636e420-0741-4bd3-b8b2-89a8d50806f9: Description # Description
     c55ca0a9-4bd6-409b-afd8-c1884dafecd0: Team # Team
 plugins:
   ckeditor:
