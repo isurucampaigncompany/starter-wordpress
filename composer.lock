@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0f4c37ffeb7e0dce44cb30cc5e3513c0",
+    "content-hash": "8743b6e3d65e70d123a30ffb9b0a9e11",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -134,11 +134,11 @@
         },
         {
             "name": "commerceguys/addressing",
-            "version": "v2.2.2",
+            "version": "v2.2.3",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/commerceguys/addressing/zipball/4d23e46ea32534268ea121453c93ceda2bc3ee69",
-                "reference": "4d23e46ea32534268ea121453c93ceda2bc3ee69",
+                "url": "https://api.github.com/repos/commerceguys/addressing/zipball/ca69b9cc502867111e585f7c627894ffac6f328a",
+                "reference": "ca69b9cc502867111e585f7c627894ffac6f328a",
                 "shasum": ""
             },
             "require": {
@@ -177,7 +177,7 @@
                 "localization",
                 "postal"
             ],
-            "time": "2024-07-12T11:53:22+00:00"
+            "time": "2024-11-11T16:07:47+00:00"
         },
         {
             "name": "composer/semver",
@@ -285,16 +285,11 @@
         },
         {
             "name": "craftcms/cms",
-            "version": "5.5.x-dev",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/craftcms/cms.git",
-                "reference": "1279d75569624af9488887f9ea187746e11776c8"
-            },
+            "version": "5.5.0",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/craftcms/cms/zipball/1279d75569624af9488887f9ea187746e11776c8",
-                "reference": "1279d75569624af9488887f9ea187746e11776c8",
+                "url": "https://api.github.com/repos/craftcms/cms/zipball/b637df44d35c1582b20da4af00db493ecf76f162",
+                "reference": "b637df44d35c1582b20da4af00db493ecf76f162",
                 "shasum": ""
             },
             "require": {
@@ -318,6 +313,7 @@
                 "ext-zip": "*",
                 "guzzlehttp/guzzle": "^7.2.0",
                 "illuminate/collections": "^v10.42.0",
+                "league/uri": "^7.0",
                 "mikehaertl/php-shellcommand": "^1.6.3",
                 "moneyphp/money": "^4.0",
                 "monolog/monolog": "^3.0",
@@ -355,21 +351,6 @@
                 "bower-asset/yii2-pjax": "2.0.8",
                 "yii2tech/ar-softdelete": "1.0.4"
             },
-            "require-dev": {
-                "codeception/codeception": "^5.0.11",
-                "codeception/lib-innerbrowser": "4.0.1",
-                "codeception/module-asserts": "^3.0.0",
-                "codeception/module-datafactory": "^3.0.0",
-                "codeception/module-phpbrowser": "^3.0.0",
-                "codeception/module-rest": "^3.3.2",
-                "codeception/module-yii2": "^1.1.9",
-                "craftcms/ecs": "dev-main",
-                "fakerphp/faker": "^1.19.0",
-                "league/factory-muffin": "^3.3.0",
-                "phpstan/phpstan": "^1.10.56",
-                "vlucas/phpdotenv": "^5.4.1",
-                "yiisoft/yii2-redis": "^2.0"
-            },
             "suggest": {
                 "ext-exif": "Adds support for parsing image EXIF data.",
                 "ext-iconv": "Adds support for more character encodings than PHP’s built-in mb_convert_encoding() function, which Craft will take advantage of when converting strings to UTF-8.",
@@ -382,7 +363,6 @@
                     "yii2tech\\ar\\softdelete\\": "lib/ar-softdelete/src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "proprietary"
             ],
@@ -400,14 +380,14 @@
                 "yii2"
             ],
             "support": {
-                "docs": "https://craftcms.com/docs/5.x/",
                 "email": "support@craftcms.com",
-                "forum": "https://craftcms.stackexchange.com/",
                 "issues": "https://github.com/craftcms/cms/issues?state=open",
-                "rss": "https://github.com/craftcms/cms/releases.atom",
-                "source": "https://github.com/craftcms/cms"
+                "forum": "https://craftcms.stackexchange.com/",
+                "source": "https://github.com/craftcms/cms",
+                "docs": "https://craftcms.com/docs/5.x/",
+                "rss": "https://github.com/craftcms/cms/releases.atom"
             },
-            "time": "2024-11-11T05:44:44+00:00"
+            "time": "2024-11-12T17:13:11+00:00"
         },
         {
             "name": "craftcms/html-field",
@@ -1194,7 +1174,12 @@
         },
         {
             "name": "illuminate/collections",
-            "version": "v10.48.22",
+            "version": "v10.48.23",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/illuminate/collections.git",
+                "reference": "37c863cffb345869dd134eff8e646bc82a19cc96"
+            },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/illuminate/collections/zipball/37c863cffb345869dd134eff8e646bc82a19cc96",
@@ -1224,6 +1209,7 @@
                     "Illuminate\\Support\\": ""
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -1235,11 +1221,20 @@
             ],
             "description": "The Illuminate Collections package.",
             "homepage": "https://laravel.com",
+            "support": {
+                "issues": "https://github.com/laravel/framework/issues",
+                "source": "https://github.com/laravel/framework"
+            },
             "time": "2024-06-19T14:25:05+00:00"
         },
         {
             "name": "illuminate/conditionable",
-            "version": "v10.48.22",
+            "version": "v10.48.23",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/illuminate/conditionable.git",
+                "reference": "d0958e4741fc9d6f516a552060fd1b829a85e009"
+            },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/illuminate/conditionable/zipball/d0958e4741fc9d6f516a552060fd1b829a85e009",
@@ -1260,6 +1255,7 @@
                     "Illuminate\\Support\\": ""
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -1271,11 +1267,15 @@
             ],
             "description": "The Illuminate Conditionable package.",
             "homepage": "https://laravel.com",
+            "support": {
+                "issues": "https://github.com/laravel/framework/issues",
+                "source": "https://github.com/laravel/framework"
+            },
             "time": "2023-02-03T08:06:17+00:00"
         },
         {
             "name": "illuminate/contracts",
-            "version": "v10.48.22",
+            "version": "v10.48.23",
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/illuminate/contracts/zipball/8d7152c4a1f5d9cf7da3e8b71f23e4556f6138ac",
@@ -1313,7 +1313,12 @@
         },
         {
             "name": "illuminate/macroable",
-            "version": "v10.48.22",
+            "version": "v10.48.23",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/illuminate/macroable.git",
+                "reference": "dff667a46ac37b634dcf68909d9d41e94dc97c27"
+            },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/illuminate/macroable/zipball/dff667a46ac37b634dcf68909d9d41e94dc97c27",
@@ -1334,6 +1339,7 @@
                     "Illuminate\\Support\\": ""
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -1345,6 +1351,10 @@
             ],
             "description": "The Illuminate Macroable package.",
             "homepage": "https://laravel.com",
+            "support": {
+                "issues": "https://github.com/laravel/framework/issues",
+                "source": "https://github.com/laravel/framework"
+            },
             "time": "2023-06-05T12:46:42+00:00"
         },
         {
@@ -1380,6 +1390,144 @@
             ],
             "description": "Yet another clock abstraction",
             "time": "2024-09-24T20:45:14+00:00"
+        },
+        {
+            "name": "league/uri",
+            "version": "7.4.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thephpleague/uri/zipball/bedb6e55eff0c933668addaa7efa1e1f2c417cc4",
+                "reference": "bedb6e55eff0c933668addaa7efa1e1f2c417cc4",
+                "shasum": ""
+            },
+            "require": {
+                "league/uri-interfaces": "^7.3",
+                "php": "^8.1"
+            },
+            "conflict": {
+                "league/uri-schemes": "^1.0"
+            },
+            "suggest": {
+                "ext-bcmath": "to improve IPV4 host parsing",
+                "ext-fileinfo": "to create Data URI from file contennts",
+                "ext-gmp": "to improve IPV4 host parsing",
+                "ext-intl": "to handle IDN host with the best performance",
+                "jeremykendall/php-domain-parser": "to resolve Public Suffix and Top Level Domain",
+                "league/uri-components": "Needed to easily manipulate URI objects components",
+                "php-64bit": "to improve IPV4 host parsing",
+                "symfony/polyfill-intl-idn": "to handle IDN host via the Symfony polyfill if ext-intl is not present"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "7.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "League\\Uri\\": ""
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ignace Nyamagana Butera",
+                    "email": "nyamsprod@gmail.com",
+                    "homepage": "https://nyamsprod.com"
+                }
+            ],
+            "description": "URI manipulation library",
+            "homepage": "https://uri.thephpleague.com",
+            "keywords": [
+                "data-uri",
+                "file-uri",
+                "ftp",
+                "hostname",
+                "http",
+                "https",
+                "middleware",
+                "parse_str",
+                "parse_url",
+                "psr-7",
+                "query-string",
+                "querystring",
+                "rfc3986",
+                "rfc3987",
+                "rfc6570",
+                "uri",
+                "uri-template",
+                "url",
+                "ws"
+            ],
+            "time": "2024-03-23T07:42:40+00:00"
+        },
+        {
+            "name": "league/uri-interfaces",
+            "version": "7.4.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thephpleague/uri-interfaces/zipball/8d43ef5c841032c87e2de015972c06f3865ef718",
+                "reference": "8d43ef5c841032c87e2de015972c06f3865ef718",
+                "shasum": ""
+            },
+            "require": {
+                "ext-filter": "*",
+                "php": "^8.1",
+                "psr/http-factory": "^1",
+                "psr/http-message": "^1.1 || ^2.0"
+            },
+            "suggest": {
+                "ext-bcmath": "to improve IPV4 host parsing",
+                "ext-gmp": "to improve IPV4 host parsing",
+                "ext-intl": "to handle IDN host with the best performance",
+                "php-64bit": "to improve IPV4 host parsing",
+                "symfony/polyfill-intl-idn": "to handle IDN host via the Symfony polyfill if ext-intl is not present"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "7.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "League\\Uri\\": ""
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ignace Nyamagana Butera",
+                    "email": "nyamsprod@gmail.com",
+                    "homepage": "https://nyamsprod.com"
+                }
+            ],
+            "description": "Common interfaces and classes for URI representation and interaction",
+            "homepage": "https://uri.thephpleague.com",
+            "keywords": [
+                "data-uri",
+                "file-uri",
+                "ftp",
+                "hostname",
+                "http",
+                "https",
+                "parse_str",
+                "parse_url",
+                "psr-7",
+                "query-string",
+                "querystring",
+                "rfc3986",
+                "rfc3987",
+                "rfc6570",
+                "uri",
+                "url",
+                "ws"
+            ],
+            "time": "2024-03-23T07:42:40+00:00"
         },
         {
             "name": "mikehaertl/php-shellcommand",
@@ -1476,11 +1624,16 @@
         },
         {
             "name": "monolog/monolog",
-            "version": "3.7.0",
+            "version": "3.8.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Seldaek/monolog.git",
+                "reference": "32e515fdc02cdafbe4593e30a9350d486b125b67"
+            },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/f4393b648b78a5408747de94fca38beb5f7e9ef8",
-                "reference": "f4393b648b78a5408747de94fca38beb5f7e9ef8",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/32e515fdc02cdafbe4593e30a9350d486b125b67",
+                "reference": "32e515fdc02cdafbe4593e30a9350d486b125b67",
                 "shasum": ""
             },
             "require": {
@@ -1489,6 +1642,27 @@
             },
             "provide": {
                 "psr/log-implementation": "3.0.0"
+            },
+            "require-dev": {
+                "aws/aws-sdk-php": "^3.0",
+                "doctrine/couchdb": "~1.0@dev",
+                "elasticsearch/elasticsearch": "^7 || ^8",
+                "ext-json": "*",
+                "graylog2/gelf-php": "^1.4.2 || ^2.0",
+                "guzzlehttp/guzzle": "^7.4.5",
+                "guzzlehttp/psr7": "^2.2",
+                "mongodb/mongodb": "^1.8",
+                "php-amqplib/php-amqplib": "~2.4 || ^3",
+                "php-console/php-console": "^3.1.8",
+                "phpstan/phpstan": "^2",
+                "phpstan/phpstan-deprecation-rules": "^2",
+                "phpstan/phpstan-strict-rules": "^2",
+                "phpunit/phpunit": "^10.5.17 || ^11.0.7",
+                "predis/predis": "^1.1 || ^2",
+                "rollbar/rollbar": "^4.0",
+                "ruflin/elastica": "^7 || ^8",
+                "symfony/mailer": "^5.4 || ^6",
+                "symfony/mime": "^5.4 || ^6"
             },
             "suggest": {
                 "aws/aws-sdk-php": "Allow sending log messages to AWS services like DynamoDB",
@@ -1517,6 +1691,7 @@
                     "Monolog\\": "src/Monolog"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -1534,7 +1709,21 @@
                 "logging",
                 "psr-3"
             ],
-            "time": "2024-06-28T09:40:51+00:00"
+            "support": {
+                "issues": "https://github.com/Seldaek/monolog/issues",
+                "source": "https://github.com/Seldaek/monolog/tree/3.8.0"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/Seldaek",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/monolog/monolog",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2024-11-12T13:57:08+00:00"
         },
         {
             "name": "nystudio107/craft-code-editor",
@@ -1714,11 +1903,16 @@
         },
         {
             "name": "phpdocumentor/reflection-docblock",
-            "version": "5.5.1",
+            "version": "5.6.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phpDocumentor/ReflectionDocBlock.git",
+                "reference": "f3558a4c23426d12bffeaab463f8a8d8b681193c"
+            },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpDocumentor/ReflectionDocBlock/zipball/0c70d2c566e899666f367ab7b80986beb3581e6f",
-                "reference": "0c70d2c566e899666f367ab7b80986beb3581e6f",
+                "url": "https://api.github.com/repos/phpDocumentor/ReflectionDocBlock/zipball/f3558a4c23426d12bffeaab463f8a8d8b681193c",
+                "reference": "f3558a4c23426d12bffeaab463f8a8d8b681193c",
                 "shasum": ""
             },
             "require": {
@@ -1727,8 +1921,17 @@
                 "php": "^7.4 || ^8.0",
                 "phpdocumentor/reflection-common": "^2.2",
                 "phpdocumentor/type-resolver": "^1.7",
-                "phpstan/phpdoc-parser": "^1.7",
+                "phpstan/phpdoc-parser": "^1.7|^2.0",
                 "webmozart/assert": "^1.9.1"
+            },
+            "require-dev": {
+                "mockery/mockery": "~1.3.5 || ~1.6.0",
+                "phpstan/extension-installer": "^1.1",
+                "phpstan/phpstan": "^1.8",
+                "phpstan/phpstan-mockery": "^1.1",
+                "phpstan/phpstan-webmozart-assert": "^1.2",
+                "phpunit/phpunit": "^9.5",
+                "psalm/phar": "^5.26"
             },
             "type": "library",
             "extra": {
@@ -1741,6 +1944,7 @@
                     "phpDocumentor\\Reflection\\": "src"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -1755,7 +1959,11 @@
                 }
             ],
             "description": "With this component, a library can provide support for annotations via DocBlocks or otherwise retrieve information that is embedded in a DocBlock.",
-            "time": "2024-11-06T11:58:54+00:00"
+            "support": {
+                "issues": "https://github.com/phpDocumentor/ReflectionDocBlock/issues",
+                "source": "https://github.com/phpDocumentor/ReflectionDocBlock/tree/5.6.0"
+            },
+            "time": "2024-11-12T11:25:25+00:00"
         },
         {
             "name": "phpdocumentor/type-resolver",
@@ -1848,15 +2056,15 @@
         },
         {
             "name": "phpstan/phpdoc-parser",
-            "version": "1.33.0",
+            "version": "2.0.0",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpdoc-parser/zipball/82a311fd3690fb2bf7b64d5c98f912b3dd746140",
-                "reference": "82a311fd3690fb2bf7b64d5c98f912b3dd746140",
+                "url": "https://api.github.com/repos/phpstan/phpdoc-parser/zipball/c00d78fb6b29658347f9d37ebe104bffadf36299",
+                "reference": "c00d78fb6b29658347f9d37ebe104bffadf36299",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.2 || ^8.0"
+                "php": "^7.4 || ^8.0"
             },
             "type": "library",
             "autoload": {
@@ -1870,7 +2078,7 @@
                 "MIT"
             ],
             "description": "PHPDoc parser with support for nullable, intersection and generic types",
-            "time": "2024-10-13T11:25:22+00:00"
+            "time": "2024-10-13T11:29:49+00:00"
         },
         {
             "name": "pixelandtonic/imagine",
@@ -4182,11 +4390,16 @@
         },
         {
             "name": "verbb/base",
-            "version": "3.0.4",
+            "version": "3.0.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/verbb/verbb-base.git",
+                "reference": "b26bcb553a8e0683d3edb66a563ce89dac570e26"
+            },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/verbb/verbb-base/zipball/0d3798a795a83a3fdfbbe9e5c693aecffde3f004",
-                "reference": "0d3798a795a83a3fdfbbe9e5c693aecffde3f004",
+                "url": "https://api.github.com/repos/verbb/verbb-base/zipball/b26bcb553a8e0683d3edb66a563ce89dac570e26",
+                "reference": "b26bcb553a8e0683d3edb66a563ce89dac570e26",
                 "shasum": ""
             },
             "require": {
@@ -4199,6 +4412,7 @@
                     "verbb\\base\\": "src/"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -4209,7 +4423,20 @@
                 }
             ],
             "description": "Common utilities and building-blocks for Verbb plugins for Craft CMS.",
-            "time": "2024-09-13T23:33:05+00:00"
+            "support": {
+                "docs": "https://github.com/verbb/verbb-base",
+                "email": "support@verbb.io",
+                "issues": "https://github.com/verbb/verbb-base/issues?state=open",
+                "rss": "https://github.com/verbb/verbb-base/commits/v2.atom",
+                "source": "https://github.com/verbb/verbb-base"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/verbb",
+                    "type": "github"
+                }
+            ],
+            "time": "2024-11-13T00:08:07+00:00"
         },
         {
             "name": "verbb/comments",
@@ -5295,12 +5522,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:craftcms/wp-import.git",
-                "reference": "62558efebc40db311160238500dfdb79d9ddcd89"
+                "reference": "7977e842fb051239bb50c68af02540e010a14d22"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/craftcms/wp-import/zipball/62558efebc40db311160238500dfdb79d9ddcd89",
-                "reference": "62558efebc40db311160238500dfdb79d9ddcd89",
+                "url": "https://api.github.com/repos/craftcms/wp-import/zipball/7977e842fb051239bb50c68af02540e010a14d22",
+                "reference": "7977e842fb051239bb50c68af02540e010a14d22",
                 "shasum": ""
             },
             "require": {
@@ -5365,7 +5592,7 @@
                 "source": "https://github.com/craftcms/wp-import",
                 "rss": "https://github.com/craftcms/wp-import/releases.atom"
             },
-            "time": "2024-11-10T02:06:47+00:00"
+            "time": "2024-11-13T00:21:13+00:00"
         },
         {
             "name": "masterminds/html5",
@@ -5840,17 +6067,9 @@
             "time": "2022-09-04T10:37:52+00:00"
         }
     ],
-    "aliases": [
-        {
-            "package": "craftcms/cms",
-            "version": "5.5.9999999.9999999-dev",
-            "alias": "5.5.0-alpha",
-            "alias_normalized": "5.5.0.0-alpha"
-        }
-    ],
+    "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "craftcms/cms": 20,
         "craftcms/wp-import": 20
     },
     "prefer-stable": true,
