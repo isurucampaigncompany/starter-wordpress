@@ -1,6 +1,6 @@
 # WordPress Starter Project for Craft CMS
 
-This repository contains a complete Craft application, configured to closely mirror a default WordPress installation. It can be used as an introduction to Craft’s content tools, or as a way to quickly import content from an existing WordPress site.
+This repository contains a complete [Craft CMS](https://craftcms.com) application, configured to closely mirror a default [WordPress](https://wordpress.org) installation. It can be used as an introduction to Craft’s content tools, or as a way to quickly import content from an existing WordPress site.
 
 > [!TIP]  
 > See our [Craft CMS for WordPress Developers](https://craftcms.com/knowledge-base/for-wordpress-devs) article for additional information about making the switch to Craft!
