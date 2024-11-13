@@ -1,10 +1,10 @@
 defaultPlacement: end
 enableVersioning: true
 entryTypes:
-  - 23a3f2f7-2b22-4a38-835a-342440a6a2ce # Home
-handle: home
+  - 599eac19-621a-42b0-bf98-006466ac4618 # Post
+handle: posts
 maxAuthors: 1
-name: Home
+name: Posts
 previewTargets:
   -
     __assoc__:
@@ -14,14 +14,11 @@ previewTargets:
       -
         - urlFormat
         - '{url}'
-      -
-        - refresh
-        - '1'
 propagationMethod: all
 siteSettings:
   37938585-7d7b-4d97-94f7-73dc07d795c2: # WordPress Starter
     enabledByDefault: true
     hasUrls: true
-    template: index.twig
-    uriFormat: __home__
-type: single
+    template: _post.twig
+    uriFormat: '{postDate|date(''Y'')}/{postDate|date(''m'')}/{postDate|date(''d'')}/{slug}'
+type: channel
