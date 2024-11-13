@@ -12,7 +12,7 @@ This repository contains a complete Craft application, configured to closely mir
 - Live Preview configured out of the box;
 - Pre-packaged with our official WordPress [import tool](#importing-content);
 
-## Requirements
+## Prerequisites
 
 - [DDEV](https://ddev.com/) or an equivalent local development environment that meets Craft’s [system requirements](https://craftcms.com/docs/5.x/requirements.html);
 - A publicly-reachable WordPress site to migrate from, with [administrator-level](https://learn.wordpress.org/lesson/user-management-2/) access;
