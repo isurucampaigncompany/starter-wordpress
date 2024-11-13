@@ -23,7 +23,7 @@ This repository contains a complete Craft application, configured to closely mir
 
    ```bash
    git clone https://github.com/craftcms/starter-wordpress.git
-   cd starter-wordpress
+   cd starter-wordpress/
    ```
 
 2. Start DDEV:
