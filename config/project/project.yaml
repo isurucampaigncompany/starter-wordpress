@@ -1,4 +1,4 @@
-dateModified: 1731511868
+dateModified: 1731513080
 email:
   fromEmail: travis@pixelandtonic.com
   fromName: travis@pixelandtonic.com
@@ -27,11 +27,9 @@ meta:
     08a529f2-1255-4bc6-9680-ec89d97b23fa: 'Public Schema' # Public Schema
     8e453d04-2511-44eb-b3dc-0d53fa2ab198: Posts # Posts
     22e94a09-0f7c-4a1f-9981-7fc0605d83fa: 'Link URL' # Link URL
-    23a3f2f7-2b22-4a38-835a-342440a6a2ce: Home # Home
     36ca6464-18ad-4f2a-9ae0-e8da4e00c94a: Group # Group
     599eac19-621a-42b0-bf98-006466ac4618: Post # Post
     677c2b2b-14a7-4692-8bb8-b4dc667e1a12: Tags # Tags
-    936d7cd3-b422-4bc9-80dd-63bdfeb5ca47: Home # Home
     7261a233-a194-4374-8a55-91770cef7528: 'Post Content' # Post Content
     37938585-7d7b-4d97-94f7-73dc07d795c2: 'WordPress Starter' # WordPress Starter
     79559275-ab81-4420-abf1-1c848a0a68d6: Sticky # Sticky
