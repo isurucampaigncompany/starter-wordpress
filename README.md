@@ -54,7 +54,7 @@ Congratulations—Craft has been installed! You can explore the control panel by
 Before migration, you'll need to prepare your WordPress site. See the [wp-import repository](https://github.com/craftcms/wp-import) for complete documentation.
 
 1. Install the import helper:
-   - Save `plugins/wp-import-helper.php` to your WordPress site's `wp-content/plugins/` folder
+   - Save [`plugins/wp-import-helper.php`](https://github.com/craftcms/wp-import/blob/main/plugins/wp-import-helper.php) to your WordPress site's `wp-content/plugins/` folder
    - Log into WP Admin Dashboard
    - Navigate to **Plugins** and activate "wp-import helper"
 
