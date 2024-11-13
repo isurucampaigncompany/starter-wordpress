@@ -47,7 +47,7 @@ ddev craft up
 ddev launch
 ```
 
-Your site should now open in the browser. Access the control panel at `https://project-name.ddev.site/admin`.
+Your site should now open in the browser. Access the control panel at `https://starter-wordpress.ddev.site/admin` (or whatever domain you setup in DDEV).
 
 ## Preparing Your WordPress Site
 
